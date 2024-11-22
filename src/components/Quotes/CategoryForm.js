@@ -11,7 +11,7 @@ function CategoryForm({ category, categories, handleCategoryChange }) {
             }}
         >
             <Filter />
-            <label htmlFor='category'>Filter Quotes:</label>
+            <label htmlForm='category'>Filter Quotes:</label>
             <select id='category' name='category' value={category} onChange={handleCategoryChange}>
                 {categories.map((category) => (
                     <option key={category} value={category}>

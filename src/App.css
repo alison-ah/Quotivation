@@ -152,7 +152,7 @@ footer {
   color: #ad7000;
 }
 
-/* .favorite-quotes .quote-card::before {
+.favorite-quotes .quote-card::before {
   content: "#" attr(data-list-position);
   padding: 0 1rem;
   position: absolute;
