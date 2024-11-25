@@ -1,6 +1,6 @@
 import React from "react";
-import QuoteCard from "./quotes/QuoteCard";
-import CategoryForm from "./quotes/CategoryForm";
+import QuoteCard from "./QuoteCard";
+import CategoryForm from "./CategoryForm";
 
 function Quotes({ filteredQuotes, category, categories, handleCategoryChange, addToFavorites, favoriteQuotes }) {
     return (

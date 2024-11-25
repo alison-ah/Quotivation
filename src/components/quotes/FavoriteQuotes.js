@@ -1,5 +1,5 @@
 import React from "react";
-import FavoriteQuoteCard from "./quotes/FavoriteQuoteCard";
+import FavoriteQuoteCard from "./FavoriteQuoteCard";
 
 
 function FavoriteQuotes({ favoriteQuotes, maxFaves, removeFromFavorites }) {
