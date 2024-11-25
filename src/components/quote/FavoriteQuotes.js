@@ -1,5 +1,5 @@
 import React from "react";
-import FavoriteQuoteCard from "./FavoriteQuoteCard";
+import FavoriteQuoteCard from "./quotes/FavoriteQuoteCard";
 
 function FavoriteQuotes({ favoriteQuotes, maxFaves, removeFromFavorites }) {
     const remainingFavoriteAmount = maxFaves - favoriteQuotes.length;
