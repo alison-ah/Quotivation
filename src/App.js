@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Quotes from "./components/quotes/Quotes";
+import Quotes from "./components/Quotes/Quotes";
 import FavoriteQuotes from "./components/quotes/FavoriteQuotes";
 import { Loader } from "react-feather";
 import Message from "./components/Message";
